@@ -1,0 +1,56 @@
+
+<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 0 666 666" width="666" height="666">
+	<style>
+    .outline {
+      stroke: #111;
+      stroke-width: 32;
+      fill: none;
+    }
+
+    .border {
+      fill: #FCFCFC;
+    }
+
+    .sclera {
+      fill: #FCFCFC;
+    }
+
+    .aperture {
+      fill: rgb(165, 24, 201);
+    }
+
+    .iris {
+      fill: rgb(165, 24, 201);
+      stroke: #111;
+      stroke-width: 32;
+    }
+
+    .reflection {
+      fill: #FCFCFC;
+    }
+
+    .pupil {
+      fill: #111;
+    }
+
+    .slash {
+      stroke: rgb(165, 24, 201);
+      stroke-width: 32;
+    }
+	</style>
+  <g transform="rotate(-90, 333 333) translate(333, 333)">
+	<circle class="sclera" r="300" />
+
+    <circle class="pupil" r="32" cx="112.50000000000003" cy="194.85571585149867" />
+<circle class="pupil" r="32" cx="-112.49999999999994" cy="194.8557158514987" />
+<circle class="pupil" r="32" cx="-225" cy="2.7554552980815446e-14" />
+<circle class="pupil" r="32" cx="-112.5000000000001" cy="-194.85571585149867" />
+<circle class="pupil" r="32" cx="112.50000000000003" cy="-194.85571585149867" />
+<circle class="pupil" r="32" cx="225" cy="-5.510910596163089e-14" />
+
+    <path class="outline" d="M 268.00 0.00 L -134.00 232.09 L -134.00 -232.09 Z" stroke-linecap="round" />
+
+    <line class="slash" x1="0" y1="-300" x2="0" y2="300" />
+  </g>
+</svg>
+
